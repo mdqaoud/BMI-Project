@@ -1,0 +1,297 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".info"
+    tools:ignore="ExtraText">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="80dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="48dp"
+        android:layout_marginTop="63dp"
+        android:layout_marginEnd="48dp"
+        android:layout_marginBottom="588dp"
+        android:text="@string/complete_your_information"
+        android:textAlignment="center"
+        android:textColor="#23A7FF"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="47dp"
+        android:layout_marginTop="236dp"
+        android:layout_marginEnd="295dp"
+        android:layout_marginBottom="462dp"
+        android:text="@string/gender"
+        android:textAlignment="textStart"
+        android:textColor="#23A7FF"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="47dp"
+        android:layout_marginTop="292dp"
+        android:layout_marginEnd="294dp"
+        android:layout_marginBottom="406dp"
+        android:text="@string/weight"
+        android:textAlignment="textStart"
+        android:textColor="#23A7FF"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="47dp"
+        android:layout_marginTop="349dp"
+        android:layout_marginEnd="294dp"
+        android:layout_marginBottom="349dp"
+        android:text="@string/length"
+        android:textAlignment="textStart"
+        android:textColor="#23A7FF"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="47dp"
+        android:layout_marginTop="405dp"
+        android:layout_marginEnd="250dp"
+        android:layout_marginBottom="292dp"
+        android:text="@string/date_of_birth"
+        android:textAlignment="textStart"
+        android:textColor="#23A7FF"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <RadioGroup
+        android:layout_width="187dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="173dp"
+        android:layout_marginTop="234dp"
+        android:layout_marginEnd="51dp"
+        android:layout_marginBottom="460dp"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:layout_width="78dp"
+            android:layout_height="wrap_content"
+            android:text="@string/male"
+            android:textColor="#2196F3"
+            />
+
+        <RadioButton
+            android:layout_width="109dp"
+            android:layout_height="wrap_content"
+            android:text="@string/female"
+            android:textColor="#2196F3" />
+
+
+    </RadioGroup>
+
+
+    <Button
+        android:id="@+id/decrement"
+        android:layout_width="37dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="328dp"
+        android:layout_marginTop="286dp"
+        android:layout_marginEnd="46dp"
+        android:layout_marginBottom="400dp"
+        android:background="@null"
+        android:backgroundTint="#03A9F4"
+        android:padding="0dp"
+        android:text="@string/aa"
+        android:textColor="@android:color/white"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/display"
+        android:layout_width="wrap_content"
+        android:layout_height="37dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="218dp"
+        android:layout_marginTop="290dp"
+        android:layout_marginEnd="89dp"
+        android:layout_marginBottom="404dp"
+        android:background="#312196F3"
+        android:gravity="center"
+        android:inputType="number"
+        android:text="@string/kg_"
+        android:textColor="#9A9A9A"
+        tools:ignore="TextViewEdits"
+
+
+        />
+
+    <Button
+        android:id="@+id/increment"
+        android:layout_width="36dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="172dp"
+        android:layout_marginTop="286dp"
+        android:layout_marginEnd="203dp"
+        android:layout_marginBottom="400dp"
+        android:background="@null"
+        android:backgroundTint="#03A9F4"
+        android:padding="0dp"
+        android:text="@string/aa1"
+        android:textColor="@android:color/white"
+        android:textSize="25sp" />
+
+
+
+
+    <Button
+        android:id="@+id/decrement3"
+        android:layout_width="37dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="328dp"
+        android:layout_marginTop="344dp"
+        android:layout_marginEnd="46dp"
+        android:layout_marginBottom="342dp"
+        android:background="@null"
+        android:backgroundTint="#03A9F4"
+        android:padding="0dp"
+        android:text="@string/aa4"
+        android:textColor="@android:color/white"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/display1"
+        android:layout_width="wrap_content"
+        android:layout_height="37dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="218dp"
+        android:layout_marginTop="348dp"
+        android:layout_marginEnd="89dp"
+        android:layout_marginBottom="346dp"
+        android:background="#312196F3"
+        android:gravity="center"
+        android:inputType="number"
+        android:text="@string/cm"
+        android:textColor="#9A9A9A"
+        tools:ignore="TextViewEdits" />
+
+    <Button
+        android:id="@+id/increment2"
+        android:layout_width="36dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="172dp"
+        android:layout_marginTop="344dp"
+        android:layout_marginEnd="203dp"
+        android:layout_marginBottom="342dp"
+        android:background="@null"
+        android:backgroundTint="#03A9F4"
+        android:padding="0dp"
+        android:text="@string/aa3"
+        android:textColor="@android:color/white"
+        android:textSize="25sp" />
+
+
+    <TextView
+        android:id="@+id/display12"
+        android:layout_width="146dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="218dp"
+        android:layout_marginTop="404dp"
+        android:layout_marginEnd="47dp"
+        android:layout_marginBottom="290dp"
+        android:background="#312196F3"
+        android:gravity="center"
+        android:inputType="number"
+        android:text="@string/date_of_birth"
+        android:textColor="#9A9A9A"
+        tools:ignore="TextViewEdits" />
+
+
+
+
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="64dp"
+        android:layout_marginTop="513dp"
+        android:layout_marginEnd="64dp"
+        android:layout_marginBottom="153dp"
+        android:backgroundTint="#2196F3"
+        android:text="@string/save_data"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+
+
+</RelativeLayout>
