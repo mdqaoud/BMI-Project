@@ -3,10 +3,16 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/Mohammed/AndroidStudioProjects/BMIv2/app/src/main/res/layout/activity_addfooddetails.xml" value="0.36666666666666664" />
         <entry key="..\:/Users/Mohammed/AndroidStudioProjects/BMIv2/app/src/main/res/layout/activity_creat_accound.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Mohammed/AndroidStudioProjects/BMIv2/app/src/main/res/layout/activity_edit_food_details.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Mohammed/AndroidStudioProjects/BMIv2/app/src/main/res/layout/activity_foodlist.xml" value="0.36666666666666664" />
         <entry key="..\:/Users/Mohammed/AndroidStudioProjects/BMIv2/app/src/main/res/layout/activity_info.xml" value="0.33" />
         <entry key="..\:/Users/Mohammed/AndroidStudioProjects/BMIv2/app/src/main/res/layout/activity_login.xml" value="0.25" />
         <entry key="..\:/Users/Mohammed/AndroidStudioProjects/BMIv2/app/src/main/res/layout/activity_main.xml" value="0.2957427536231884" />
+        <entry key="..\:/Users/Mohammed/AndroidStudioProjects/BMIv2/app/src/main/res/layout/activity_newrecord.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Mohammed/AndroidStudioProjects/BMIv2/app/src/main/res/layout/activity_status.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Mohammed/AndroidStudioProjects/BMIv2/app/src/main/res/layout/activity_user_status.xml" value="0.36666666666666664" />
       </map>
     </option>
   </component>

@@ -10,6 +10,24 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.BMIv2">
         <activity
+            android:name=".EditFoodDetails"
+            android:exported="false" />
+        <activity
+            android:name=".Foodlist"
+            android:exported="false" />
+        <activity
+            android:name=".Addfooddetails"
+            android:exported="false" />
+        <activity
+            android:name=".newrecord"
+            android:exported="false" />
+        <activity
+            android:name=".userStatus"
+            android:exported="false" />
+        <activity
+            android:name=".status"
+            android:exported="false" />
+        <activity
             android:name=".info"
             android:exported="false" />
         <activity
